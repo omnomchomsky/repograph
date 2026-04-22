@@ -1,0 +1,8 @@
+[project]
+name = "repograph"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["neo4j"]
+
+[project.scripts]
+repograph = "repograph.cli:main"
