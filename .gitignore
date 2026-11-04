@@ -1,3 +1,13 @@
 .venv/
 __pycache__/
 *.pyc
+.idea/
+*.egg-info/
+dist/
+repograph/env
+.env
+.repograph/
+artifacts/
+index.scip
+target/
+build/
