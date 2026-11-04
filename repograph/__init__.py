@@ -1,5 +1,2 @@
-from .cli import main
-
-if __name__ == "__main__":
-    main()
+"""Rust semantic code graphs from Cargo metadata and rust-analyzer SCIP."""
 

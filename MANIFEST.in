@@ -1,0 +1,4 @@
+include main.py repograph/env.example
+recursive-include docs *.cypher
+recursive-include tests *.py *.md *.json *.scip *.rs Cargo.toml Cargo.lock
+prune tests/fixtures/rust_workspace/target

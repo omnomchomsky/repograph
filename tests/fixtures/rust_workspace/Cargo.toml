@@ -1,0 +1,19 @@
+[workspace]
+members = [".", "helper"]
+resolver = "2"
+
+[package]
+name = "graph-fixture"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+toolkit = { package = "fixture-helper", path = "helper" }
+
+[features]
+default = []
+extra = []
+
+[[bin]]
+name = "fixture-cli"
+path = "src/main.rs"
